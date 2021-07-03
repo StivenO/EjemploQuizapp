@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infowithvijay.triviaquizapp2">
+
+    <application
+        android:name=".utils.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".scorep"></activity>
+        <activity android:name=".programacion3" />
+        <activity android:name=".programacion2" />
+        <activity android:name=".programacion1" />
+        <activity android:name=".scoree" />
+        <activity android:name=".entretenimiento3" />
+        <activity android:name=".entretenimiento2" />
+        <activity android:name=".entretenimiento1" />
+        <activity android:name=".scoreh" />
+        <activity android:name=".historia3" />
+        <activity android:name=".historia2" />
+        <activity android:name=".historia1" />
+        <activity android:name=".activites.categorias" />
+        <activity android:name=".historia" />
+        <activity android:name=".entretenimiento" />
+        <activity android:name=".programacion" />
+        <activity android:name=".activites.ScoreActivity" />
+        <activity android:name=".activites.GameOverScreen" />
+        <activity android:name=".activites.CategoryActivity" />
+        <activity android:name=".activites.Settings" />
+        <activity android:name=".activites.QuizActivity2" />
+        <activity android:name=".activites.HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crebro"
+    tools:context=".programacion3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="472dp"
+        android:layout_height="582dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Que es HTML?"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un lenguaje ambiguo" />
+
+        <Button
+            android:id="@+id/btb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un lenguaje de etiqueta" />
+
+        <Button
+            android:id="@+id/btc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un lenguaje de programacion" />
+
+        <Button
+            android:id="@+id/btd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un lenguaje" />
+
+        <Button
+            android:id="@+id/btsigue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
